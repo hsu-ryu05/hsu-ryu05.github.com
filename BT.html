@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>jQuery Mobile</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	
+<div data-role="page">
+	<div data-role="header" data-theme="b" >
+		<h1>목록</h1>
+		<a href="#"> 전페이지 </a>
+		<a href="#"> 다음페이지</a>
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-count-theme="a">
+			<li data-role="listdivider" >메뉴 종류</li>
+			<li><a href="#"><img src="listicon.png" class="ui-li-icon">영화목록<span class="ui-li-count">new</span></a></li>
+			<li><a href="#"><img src="listicon.png" class="ui-li-icon">노래목록<span class="ui-li-count">hot</span></a></li>
+			<li><a href="#"><img src="listicon.png" class="ui-li-icon">판타지소설목록<span class="ui-li-count">1</span></a></li>
+			<li><a href="#"><img src="listicon.png" class="ui-li-icon">미정<span class="ui-li-count">0</span></a></li>
+			<li><a href="#"><img src="listicon.png" class="ui-li-icon">미정<span class="ui-li-count">0</span></a></li>
+		</ul>
+	</div>
+	
+		<div data-role="content">
+		<div data-role="collapsible">
+			<h3>이달의 베스트 영화</h3>
+		<div data-role="collapsible">
+			<h1><img src="movie_image.jpg" width="100" height="100" >어밴져스 엔드게임</h1>
+			
+		</div>
+		</div>
+	
+
+		</div>
+	<div data-role="footer" data-position="fixed" class="ui-bar" data-theme="b">
+		<div data-role="controlgroup" data-type="horizontal" data-theme="a">
+			<a href="#">2011년</a>
+			<a href="#">2012년</a>
+			<a href="#">2013년</a>
+			<a href="#">2014년</a>
+			<a href="#">2015년</a>				
+		<div>
+	</div>
+</div>
+</div>
+
+</body>
+</html>
+
