@@ -44,9 +44,4 @@ video { margin: 5px; width: 300px; height: 200px; }
 #pic3:hover { -webkit-transform: translate(30px,50px) scale(7,7); transform: scale(0.5); }
 /*jop.html 적용 스타일*/ 
 
-(function($) {
-
-	
-
-})(jQuery);
 
